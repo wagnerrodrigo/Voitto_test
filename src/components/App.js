@@ -1,5 +1,5 @@
 import React from 'react';
-// import Botoes from './components'
+//import Botoes from './components'
 import './App.css';
 
 export default class App extends React.Component{
@@ -11,7 +11,8 @@ export default class App extends React.Component{
       input:'0',
       respostaCalculo: false
     }
-    this.digitos = this.digitos.bind(this)
-    this.operadores = this.operadores.bind(this)
+    this.digitos = this.digitos.bind(this);
+    this.operadores = this.operadores.bind(this);
+    this.limpaTela = this.limpaTela.bind(this);
   }
 }
